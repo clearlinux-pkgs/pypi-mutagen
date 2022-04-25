@@ -4,7 +4,7 @@
 #
 Name     : pypi-mutagen
 Version  : 1.45.1
-Release  : 28
+Release  : 29
 URL      : https://files.pythonhosted.org/packages/f3/d9/2232a4cb9a98e2d2501f7e58d193bc49c956ef23756d7423ba1bd87e386d/mutagen-1.45.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/f3/d9/2232a4cb9a98e2d2501f7e58d193bc49c956ef23756d7423ba1bd87e386d/mutagen-1.45.1.tar.gz
 Summary  : read and write audio tags for many formats
@@ -16,9 +16,6 @@ Requires: pypi-mutagen-man = %{version}-%{release}
 Requires: pypi-mutagen-python = %{version}-%{release}
 Requires: pypi-mutagen-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: mutagen
-Provides: mutagen-python
-Provides: mutagen-python3
 
 %description
 .. image:: https://raw.githubusercontent.com/quodlibet/mutagen/master/docs/images/logo.svg
@@ -78,7 +75,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641457010
+export SOURCE_DATE_EPOCH=1650928436
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
