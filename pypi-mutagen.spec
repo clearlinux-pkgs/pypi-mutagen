@@ -4,7 +4,7 @@
 #
 Name     : pypi-mutagen
 Version  : 1.45.1
-Release  : 34
+Release  : 35
 URL      : https://files.pythonhosted.org/packages/f3/d9/2232a4cb9a98e2d2501f7e58d193bc49c956ef23756d7423ba1bd87e386d/mutagen-1.45.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/f3/d9/2232a4cb9a98e2d2501f7e58d193bc49c956ef23756d7423ba1bd87e386d/mutagen-1.45.1.tar.gz
 Summary  : read and write audio tags for many formats
